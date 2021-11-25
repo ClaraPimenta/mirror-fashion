@@ -1,0 +1,36 @@
+header {
+    display: flex;
+}
+
+#principal {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#logo {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 0px;
+    top: 0px;
+}
+
+#escrito {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#sacola {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+ul {
+    position: absolute;
+    bottom: 0px;
+}
