@@ -1,5 +1,5 @@
 body {
-    background-color: #f3f3f3;
+    background-color: white;
 }
 
 #container {
@@ -33,17 +33,87 @@ body {
     top: 20px;
 }
 
-li {
-    display: inline;
-    margin-left: 7px;
-}
-
-ul {
+#navbar {
     position: absolute;
     right: 20px;
     top: 70px;
 }
+#navbar li {
+    display: inline;
+    margin-left: 7px;
+}
 
 a {
     text-decoration: none;
+}
+
+#menuNavegacao {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 20%;
+}
+
+#menu {
+    position: absolute;  
+    width: 33%;
+    height: 100%;
+    top: 20%;
+}
+
+#busca {
+    position: absolute;
+    width: 100%;
+    height: 8%;    
+    background-color: #e2e0e0;
+}
+
+#busca span {
+    position: absolute;
+    padding: 3%;
+}
+
+#busca input {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+
+#departamentos {
+    position: absolute;
+    width: 100%;
+    height: 30%;    
+    top: 10%;
+    background-color:#e2e0e0;
+}
+
+#departamentos span {
+    position: absolute;
+    padding: 3%;
+}
+
+#categorias {
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    height: 80%;
+    width: 100%;
+}
+
+#categorias ul {
+    list-style-type: none;
+    padding-left: 3%;
+}
+
+#categorias ul li {
+    margin-bottom: 3px;
+}
+
+#imagens {
+    position: absolute; 
+    width: 70%;
+    height: 60%;
+    top: 20%;
+    right: 0;
 }
